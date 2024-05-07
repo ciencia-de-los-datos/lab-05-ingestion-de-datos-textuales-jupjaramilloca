@@ -21,6 +21,7 @@ def process_directory(directory_path):
 
     return pd.DataFrame(data)
 
+
 train_dataset = process_directory(os.path.join('data', 'train'))
 test_dataset = process_directory(os.path.join('data', 'test'))
 
